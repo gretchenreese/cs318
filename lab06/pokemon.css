@@ -1,0 +1,12 @@
+.card {
+    display: inline-block;
+    width: 250px;
+    background-color: rgb(219, 215, 204);
+    border-style: solid;
+    border-color: rgb(211, 201, 206);
+    border-width: 5px;
+    border-radius: 30px; 
+}
+.name {
+    font-style: italic;
+}
