@@ -1,0 +1,12 @@
+.square {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(160, 146, 134);
+    color: rgb(160, 146, 134);
+}
+#highlighted {
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+}
