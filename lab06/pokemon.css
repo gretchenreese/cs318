@@ -5,8 +5,37 @@
     border-style: solid;
     border-color: rgb(211, 201, 206);
     border-width: 5px;
-    border-radius: 30px; 
+    border-radius: 30px;
+    vertical-align: top; 
 }
 .name {
     font-style: italic;
+    text-align: center;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.card img{
+    width:85%;
+}
+.card p{
+    font-family: sans-serif;
+    text-align: center;
+}
+#pokemon1{
+    background-color:rgb(190, 178, 167)
+}
+#pokemon2{
+    background-color: rgb(213, 196, 161)
+}
+#pokemon3{
+    background-color: rgb(193, 210, 214)
+}
+#pokemon4{
+    background-color: rgb(200, 186, 192)
+}
+#pokemon5{
+    background-color: rgb(195, 200, 205)
+}
+#pokemon6{
+    background-color: rgb(234, 195, 184)
 }
