@@ -39,3 +39,9 @@
 #pokemon6{
     background-color: rgb(234, 195, 184)
 }
+.favourite{
+    border-width: 2px;
+    border-style: dashed;
+    border-color: rgb(110, 118, 73);
+    border-radius: 30px;
+}
