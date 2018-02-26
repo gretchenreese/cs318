@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;
+}
+
+.blurb{
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+}
+.simple-linear{
+    background: linear-gradient(to right, rgb(255, 130, 67), rgb(176, 183, 198)50%);
+}
+
+span.G{
+    font-size: 75px;
+    -webkit-text-fill-color: rgb(176, 183, 198);
+    text-shadow: 0px 0px 10px black;
+}
+
+span.n{
+    font-size: 75px;
+    -webkit-text-fill-color: rgb(255, 130, 67);  
+    text-shadow: 0px 0px 10px black;
+}
+
+p{
+    text-align: center;
+    font-family:  'Shadows Into Light', cursive;
+    font-size: 50px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+}
+
+.left{
+    margin-right: auto;
+    background-color:rgb(253,217,181);
+    box-shadow: 5px 10px;
+    width: 90%;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 30px;
+    border-bottom-left-radius: 0%;
+    border-top-left-radius: 0%;
+    padding: 10px 230px;
+    font-family: 'Shadows Into Light', cursive;
+    font-size:48px;
+    min-height: 202px;
+    min-width: 400px;
+    background-image:url("GarfieldStanding.jpg");
+    background-size: 200px;
+    background-repeat: no-repeat;
+}
+
+.right{
+    margin-left: auto;
+    background-color:rgb(173, 173, 214);
+    box-shadow: 5px 10px;
+    width: 90%;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 30px;
+    border-bottom-right-radius: 0%;
+    border-top-right-radius: 0%;
+    padding: 10px 10px;
+    font-family: 'Shadows Into Light', cursive;
+    font-size:48px;
+    min-height:202px;
+    min-width:400px;
+    background-image:url("nutritionist medpark.jpg");
+    background-size: 310px;
+    background-repeat: no-repeat;
+    background-position: right;
+}
