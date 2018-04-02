@@ -1,0 +1,21 @@
+td {
+    border: 1px solid black;
+    width: 5em;
+    height: 5em;
+    width: 5em;
+    font-size: 15px;
+    text-align: center;
+   }
+.class{
+       font-size: 18px;
+   }
+table{
+    border-spacing: none;
+    border-collapse: collapse;
+}
+th{
+    font-size: 20px;
+}
+td:hover{
+    background-color: lightskyblue;
+}
