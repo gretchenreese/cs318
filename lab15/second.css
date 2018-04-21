@@ -1,0 +1,107 @@
+*{
+    background-image: url(http://www.dundjinni.com/forums/uploads/Ravenbow/49E_BrickRound70_CG_bg-a.png);
+    box-sizing: border-box;
+}
+
+p{
+    color: white;
+    font-family: serif;
+    font-size: 14pt;
+    border-left: 10px gold;
+    border-radius: 15%;
+    border-left-width: medium;
+}
+
+h1{
+    color: gold;
+    font-family: sans-serif;
+    font-size: 28pt;
+}
+.fire{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 120%;
+    height: 200px;
+    background-image: none;
+}
+div{
+    font-family: serif;
+    font-size: 14pt;
+    color: black;
+    box-sizing: border-box;
+    background-color: gold;
+    float: right;
+    position: relative;
+    background-image: none;
+    padding: 10px;
+    margin: 5px;
+    border: 3px dashed orange;
+    border-radius: 10%;
+    box-shadow: 5px 5px 30px gold;
+    
+}
+.heading{
+    border: none;
+}
+.quicklink{
+    display: inline-block;
+    width: 300px;
+    padding: 1em;
+    background-image: none;
+   
+}
+ul{
+    background-image: none;
+    padding: 5px;
+}
+li{
+    background-image: none;
+}
+a{
+    background-image: none;
+}
+p{
+    margin-left: 15px;
+    box-sizing: border-box;
+    border-left: 10px gold;
+    border-radius: 15%;
+    border-left-width: medium;
+        
+}
+p#1{
+    border-left: 10px gold;
+    border-radius: 15%;
+    border-left-width: medium;
+}
+p#2{
+    border-left: 10px gold;
+    border-radius: 15%;
+    border-left-width: medium;
+}
+p#3{
+    border-left: 10px gold;
+    border-radius: 15%;
+    border-left-width: medium;
+}
+p#4{
+    border-left: 10px gold;
+    border-radius: 15%;
+    border-left-width: medium;
+}
+p#5{
+    border-left: 10px gold;
+    border-radius: 15%;
+    border-left-width: medium;
+}
+p#6{
+    border-left: 10px gold;
+    border-radius: 15%;
+    border-left-width: medium;
+}
+p#7{
+    border-left: 10px gold;
+    border-radius: 15%;
+    border-left-width: medium;
+}
