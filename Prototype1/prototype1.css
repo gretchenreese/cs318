@@ -213,6 +213,17 @@ input[type=submit]:hover {
     .productsection2p{
         columns: 2;
     }
+
+    /* About Me */
+    .aboutme{
+        box-sizing: border-box;
+        width: 400px;
+        font-size: 14pt;
+        font-family: 'Cormorant Garamond', serif;
+     
+
+    }
+ 
 /* MEDIA MOBILE FRIENDLY VERSION */
 @media (max-width: 400px){
     float: none;
