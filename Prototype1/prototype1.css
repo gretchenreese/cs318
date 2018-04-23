@@ -112,3 +112,8 @@ footer{
     position: relative;
     right: -255px;
 }
+
+/* MEDIA MOBILE FRIENDLY VERSION */
+@media (max-width: 400px){
+    float: none;
+}
