@@ -1,0 +1,102 @@
+
+/* Header Image */
+.header{
+    width: 100%;
+}
+
+/* Navigation Bar */
+.nav{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: darkgrey;
+  
+}
+.navbar{
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+/* Change the link color to WARM GREY (130, 120, 111) on hover */
+li a:hover {
+    background-color: rgb(130, 120, 111);
+}
+
+/* Content Section 1 HOMEPAGE */
+.homesection1{
+    padding: 0px 30px;
+}
+
+.content1head{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 32pt;
+    text-align: center;
+    
+}
+
+.content1img{
+    width: 475px;
+    height: 650px;
+    padding: 30px 30px;
+    border: 1px solid black;
+    float: left;
+}
+
+.content1text{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 14pt;
+    box-sizing: border-box;
+    display: inline-block;
+    position: relative;
+    right: -135px;
+    text-align: center;
+    padding: 30px 30px;
+    width: 375px;
+}
+
+/*Content Section 2 HOMEPAGE */
+.content2img{
+    width: 475px;
+    height: 650px;
+    padding: 30px 30px;
+    border: 1px solid black;
+    float: right;
+}
+
+/* Footer Style */
+footer{
+    background-color: darkgrey;
+    text-align: center;
+    color: white;
+    font-family: 'Cormorant Garamond', serif;
+    padding: 14px 16px;
+    position: stattic;
+    width: 100%;
+}
+
+/* BANNER IMAGES SIZING */
+.bannerimg{
+    height: 350px;
+}
+
+/* SEE MORE buttons */
+.button {
+    background-color: rgb(130, 120, 111);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    position: relative;
+    right: -255px;
+}
