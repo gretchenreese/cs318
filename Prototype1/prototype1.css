@@ -71,6 +71,18 @@ li a:hover {
     float: right;
 }
 
+.content2text{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 14pt;
+    box-sizing: border-box;
+    display: inline-block;
+    position: relative;
+    left: 160px;
+    text-align: center;
+    padding: 30px 30px;
+    width: 375px;
+}
+
 /* Footer Style */
 footer{
     background-color: darkgrey;
