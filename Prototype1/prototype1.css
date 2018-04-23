@@ -193,6 +193,26 @@ input[type=submit]:hover {
         
     }
 
+    /* PRODUCTS PAGE */
+    .content1pimg{
+        width: 350px;
+        height: 450px;
+        border: .5px solid black;
+        padding: 15px 15px;
+        margin-right:auto;
+        display: inline-block;
+        
+    }
+    .productdescription{
+        box-sizing: border-box;
+        display: inline-block;
+        width: 400px;
+        text-align: center;
+        margin: auto;
+    }
+    .productsection2p{
+        columns: 2;
+    }
 /* MEDIA MOBILE FRIENDLY VERSION */
 @media (max-width: 400px){
     float: none;
