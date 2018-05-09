@@ -1,0 +1,230 @@
+
+/* Header Image */
+.header{
+    width: 100%;
+}
+
+/* Navigation Bar */
+.nav{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: darkgrey;
+  
+}
+.navbar{
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+/* Change the link color to WARM GREY (130, 120, 111) on hover */
+li a:hover {
+    background-color: rgb(130, 120, 111);
+}
+
+/* Content Section 1 HOMEPAGE */
+.homesection1{
+    padding: 0px 30px;
+}
+
+.content1head{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 32pt;
+    text-align: center;
+    
+}
+
+.content1img{
+    width: 475px;
+    height: 650px;
+    padding: 30px 30px;
+    border: 1px solid black;
+    float: left;
+}
+
+.content1text{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 14pt;
+    box-sizing: border-box;
+    display: inline-block;
+    position: relative;
+    right: -135px;
+    text-align: center;
+    padding: 30px 30px;
+    width: 375px;
+}
+
+/*Content Section 2 HOMEPAGE */
+.content2img{
+    width: 475px;
+    height: 650px;
+    padding: 30px 30px;
+    border: 1px solid black;
+    float: right;
+}
+
+.content2text{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 14pt;
+    box-sizing: border-box;
+    display: inline-block;
+    position: relative;
+    left: 160px;
+    text-align: center;
+    padding: 30px 30px;
+    width: 375px;
+}
+
+/* Footer Style */
+footer{
+    background-color: darkgrey;
+    text-align: center;
+    color: white;
+    font-family: 'Cormorant Garamond', serif;
+    padding: 14px 16px;
+    position: stattic;
+    width: 100%;
+}
+
+/* BANNER IMAGES SIZING */
+.bannerimg{
+    height: 350px;
+}
+
+/* SEE MORE buttons */
+.button {
+    background-color: rgb(130, 120, 111);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    position: relative;
+    right: -255px;
+}
+
+/* Gallery Style */
+.gallerytext{
+    width: 700px;
+    text-align: center;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 14pt;
+    margin: auto;
+
+}
+
+.comment{
+    text-align: center;
+    margin: auto;
+}
+
+.galleryimg{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*CONTACT ME FORM STYLE */
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: darkgrey;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker grey color */
+input[type=submit]:hover {
+    background-color: rgb(130, 120, 111);
+}
+
+/* Add a background color and some padding around the form */
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+/* CONTACT STYLE - TEXT */
+.content1headC{
+    text-align: center;
+   
+}
+
+.content1textC{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 14pt;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    text-align: center;
+    padding: 30px 30px;
+    width: 450px;
+    }
+
+    .contactsection1{
+        margin: auto;
+        right: 400px;
+       
+        
+    }
+
+    /* PRODUCTS PAGE */
+    .content1pimg{
+        width: 350px;
+        height: 450px;
+        border: .5px solid black;
+        padding: 15px 15px;
+        margin-right:auto;
+        display: inline-block;
+        
+    }
+    .productdescription{
+        box-sizing: border-box;
+        display: inline-block;
+        width: 400px;
+        text-align: center;
+        margin: auto;
+    }
+    .productsection2p{
+        columns: 2;
+    }
+
+    /* About Me */
+    .aboutme{
+        box-sizing: border-box;
+        width: 400px;
+        font-size: 14pt;
+        font-family: 'Cormorant Garamond', serif;
+     
+
+    }
+ 
+/* MEDIA MOBILE FRIENDLY VERSION */
+@media (max-width: 400px){
+    float: none;
+}
