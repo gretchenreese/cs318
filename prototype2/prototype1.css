@@ -225,6 +225,11 @@ input[type=submit]:hover {
     }
  
 /* MEDIA MOBILE FRIENDLY VERSION */
-@media (max-width: 400px){
+@media (max-width:650px){
     float: none;
+    content-align: center;
+    
 }
+
+   
+
