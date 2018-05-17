@@ -38,15 +38,21 @@ li a:hover {
 }
 
 /* Content Section 1 HOMEPAGE */
-.homesection1{
+.containerhome1{
     padding: 0px 30px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    margin-top: 4em;
+    margin-bottom: 8em;
 }
 
 .content1head{
     font-family: 'Cormorant Garamond', serif;
     font-size: 32pt;
-    text-align: center;
-    
+    text-align: left;
+    margin-left: 3em;
+
 }
 
 .content1img{
@@ -54,7 +60,7 @@ li a:hover {
     height: 650px;
     padding: 30px 30px;
     border: 1px solid black;
-    float: left;
+   
 }
 
 .content1text{
@@ -63,19 +69,35 @@ li a:hover {
     box-sizing: border-box;
     display: inline-block;
     position: relative;
-    right: -135px;
+    
     text-align: center;
     padding: 30px 30px;
     width: 375px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 /*Content Section 2 HOMEPAGE */
+.containerhome2{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    margin-top: 5em;
+}
+
 .content2img{
     width: 475px;
     height: 650px;
     padding: 30px 30px;
     border: 1px solid black;
-    float: right;
+    
+}
+
+.content2head{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 32pt;
+    text-align: left;
+    margin-left: 6.5em;
 }
 
 .content2text{
