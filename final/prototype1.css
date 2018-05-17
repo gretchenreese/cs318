@@ -1,6 +1,6 @@
 /*body min size*/
 main{
-    height: 2500px;
+    height: 2300px;
 }
 
 
@@ -205,18 +205,23 @@ input[type=submit]:hover {
     /* About Me */
     .aboutme{
         box-sizing: border-box;
-        width: 400px;
-        font-size: 14pt;
+        width: 570px;
+        font-size: 13pt;
         font-family: 'Cormorant Garamond', serif;
-        display: block; 
+        display: flex;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
      
-
     }
+ 
+  
  
 /* MEDIA MOBILE FRIENDLY VERSION */
 @media (max-width:650px){
     float: none;
     content-align: center;
+    
     
 }
 
